@@ -39,9 +39,9 @@ This repository contains the answers to all the tutorials and quizzes on the [SQ
 
 👩🏼‍💻 **Vanessa Aoki**
 
-- GitHub: [@VanessaAoki](https://github.com/VanessaAoki)
-- Twitter: [@VanessaSAoki](https://twitter.com/VanessaSAoki)
-- Linkedin: [Vanessa Aoki](https://www.linkedin.com/in/vanessasaoki/)
+- GitHub: [@VanessaAoki](https://github.com/VanessaAoki);
+- Twitter: [@VanessaSAoki](https://twitter.com/VanessaSAoki);
+- Linkedin: [Vanessa Aoki](https://www.linkedin.com/in/vanessasaoki/).
 
 
 ## 🤝 Contributing
