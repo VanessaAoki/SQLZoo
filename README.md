@@ -19,7 +19,7 @@ This repository contains the answers to all the tutorials and quizzes on the [SQ
 - [Numeric Examples](./Tutorials/numericexamples.sql);
 - [Window function](./Tutorials/windowfunctions.sql);
 - [COVID 19](./Tutorials/windowlag.sql);
-- [Self JOIN](./Tutorials/selfjoin.sql);
+- [Self JOIN](./Tutorials/selfjoin.sql).
 
 
 ## Quizzes:
@@ -33,7 +33,7 @@ This repository contains the answers to all the tutorials and quizzes on the [SQ
 - [JOIN](./Quizzes/join.sql);
 - [More JOIN operations](./Quizzes/morejoin.sql);
 - [Using Null](./Quizzes/usingnull.sql);
-- [Self JOIN](./Quizzes/selfjoin.sql);
+- [Self JOIN](./Quizzes/selfjoin.sql).
 
 ## Author
 
