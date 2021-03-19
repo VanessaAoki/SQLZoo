@@ -1,3 +1,5 @@
+-- https://sqlzoo.net/wiki/Using_Null_Quiz
+
 -- 1. Select the code which uses an outer join correctly. 
 
 e.
