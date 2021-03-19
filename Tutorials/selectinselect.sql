@@ -1,4 +1,4 @@
--- This tutorial looks at how we can use SELECT statements within SELECT statements to perform more complex queries. 
+-- https://sqlzoo.net/wiki/SELECT_within_SELECT_Tutorial
 
 -- 1. Bigger than Russia
 -- List each country name where the population is larger than that of 'Russia'. 
