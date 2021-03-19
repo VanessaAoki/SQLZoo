@@ -1,3 +1,5 @@
+-- https://sqlzoo.net/wiki/Self_join
+
 -- 1.
 -- How many stops are in the database.
 
