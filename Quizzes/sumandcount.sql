@@ -1,3 +1,5 @@
+-- https://sqlzoo.net/wiki/SUM_and_COUNT_Quiz
+
 -- 1. Select the statement that shows the sum of population of all countries in 'Europe' 
 
 c.
