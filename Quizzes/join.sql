@@ -1,3 +1,5 @@
+-- https://sqlzoo.net/wiki/JOIN_Quiz
+
 -- 1. You want to find the stadium where player 'Dimitris Salpingidis' scored. Select the JOIN condition to use: 
 
 d.
@@ -17,8 +19,8 @@ WHERE (team1 = "GRE" OR team2 = "GRE")
 AND teamid != 'GRE'
 GROUP BY player, teamid
 
--- 4. Select the result that would be obtained from this code: 
 /*
+4. Select the result that would be obtained from this code: 
 SELECT DISTINCT teamid, mdate
 FROM goal JOIN game on (matchid=id)
 WHERE mdate = '9 June 2012'
@@ -45,8 +47,8 @@ FROM game JOIN goal ON matchid = id
 WHERE stadium = 'Stadion Miejski (Wroclaw)'
 AND (( teamid = team2 AND team1 != 'ITA') OR ( teamid = team1 AND team2 != 'ITA'))
 
--- 7. Select the result that would be obtained from this code: 
 /*
+7. Select the result that would be obtained from this code: 
 SELECT teamname, COUNT(*)
 FROM eteam JOIN goal ON teamid = id
 GROUP BY teamname
