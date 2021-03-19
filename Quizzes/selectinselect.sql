@@ -1,3 +1,5 @@
+-- https://sqlzoo.net/wiki/Nested_SELECT_Quiz
+
 -- 1. Select the code that shows the name, region and population of the smallest country in each region 
 
 c. 
@@ -36,13 +38,16 @@ SELECT name FROM bbc
 WHERE population < (SELECT population FROM bbc WHERE name='Russia')
 AND population > (SELECT population FROM bbc WHERE name='Denmark')
 
--- 7. Select the result that would be obtained from the following code: 
--- SELECT name FROM bbc
---  WHERE population > ALL
---        (SELECT MAX(population)
---           FROM bbc
---          WHERE region = 'Europe')
---    AND region = 'South Asia'
+/*
+7. Select the result that would be obtained from the following code: 
+
+SELECT name FROM bbc
+WHERE population > ALL
+(SELECT MAX(population)
+FROM bbc
+WHERE region = 'Europe')
+AND region = 'South Asia'
+*/
 
 b.
 Table-B
