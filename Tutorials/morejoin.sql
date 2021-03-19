@@ -1,3 +1,5 @@
+-- https://sqlzoo.net/wiki/More_JOIN_operations
+
 -- 1.
 -- List the films where the yr is 1962 [Show id, title] 
 
@@ -34,8 +36,8 @@ SELECT id
 FROM movie
 WHERE title = 'Casablanca'
 
--- 6. Cast list for Casablanca
 /*
+6. Cast list for Casablanca
 Obtain the cast list for 'Casablanca'.
 
 Use movieid=11768, (or whatever value you got from the previous question) 
@@ -65,8 +67,8 @@ JOIN movie
 ON (casting.movieid = movie.id)
 WHERE name = 'Harrison Ford' 
 
--- 9. Harrison Ford as a supporting actor
 /*
+9. Harrison Ford as a supporting actor
 List the films where 'Harrison Ford' has appeared - but not in the starring role. 
 [Note: the ord field of casting gives the position of the actor. If ord=1 then this actor is in the starring role] 
 */
