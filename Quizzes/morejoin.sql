@@ -1,3 +1,5 @@
+-- https://sqlzoo.net/wiki/JOIN_Quiz_2
+
 -- 1. Select the statement which lists the unfortunate directors of the movies which have caused financial loses (gross < budget) 
 
 c.
