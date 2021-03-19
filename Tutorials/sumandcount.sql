@@ -1,3 +1,5 @@
+-- https://sqlzoo.net/wiki/SUM_and_COUNT
+
 -- 1. Total world population
 -- Show the total population of the world. 
 
